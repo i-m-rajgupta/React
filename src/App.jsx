@@ -20,7 +20,7 @@ import ProductTab from './ProductTab.jsx';
 function App() {
   return (
     <>
-      <h1>This is my app component</h1>
+      <h1>Genz Coders Space</h1>
         <Title />
       <p>We have inside This :</p>
       <Description />
