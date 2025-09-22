@@ -2,6 +2,7 @@ import './App.css'
 import Title from './Title.jsx';
 import {Description} from './Description.jsx';
 import ProductTab from './ProductTab.jsx';
+import Message  from './Message.jsx';
 
 
 // Rules for witing markup in jsx
@@ -20,7 +21,8 @@ import ProductTab from './ProductTab.jsx';
 function App() {
   return (
     <>
-      <h1>Genz Coders Space</h1>
+      < Message userName="Genz Coders Space" textColor="violet"/>
+       < Message userName="Raj" textColor="green"/>
         <Title />
       <p>We have inside This :</p>
       <Description />
